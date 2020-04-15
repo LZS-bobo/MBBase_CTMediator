@@ -13,8 +13,8 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* MBBASE_CTMEDIATORAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* MBBASE_CTMEDIATORAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* MBBASE_CTMEDIATORViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* MBBASE_CTMEDIATORViewController.m */; };
+		6003F59E195388D20070C39A /* CPDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* CPDAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* CPDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CPDViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,8 +22,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		68E1E33C2AAF21CC8078D892 /* Pods_MBBase_CTMediator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D385278409DFC159C492C9 /* Pods_MBBase_CTMediator_Tests.framework */; };
-		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2973170BC90EBE6F5F3491E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2F2B1AA4FB6709E83B9A0CA1 /* MBBase_CTMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MBBase_CTMediator.podspec; path = ../MBBase_CTMediator.podspec; sourceTree = "<group>"; };
+		2973170BC90EBE6F5F3491E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2F2B1AA4FB6709E83B9A0CA1 /* MBBase_CTMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MBBase_CTMediator.podspec; path = ../MBBase_CTMediator.podspec; sourceTree = "<group>"; };
 		30D385278409DFC159C492C9 /* Pods_MBBase_CTMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBBase_CTMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		417C1D65545197B4569D368B /* Pods-MBBase_CTMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBBase_CTMediator_Example.debug.xcconfig"; path = "Target Support Files/Pods-MBBase_CTMediator_Example/Pods-MBBase_CTMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		44A9E1316379A4D1BBD4D581 /* Pods-MBBase_CTMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBBase_CTMediator_Tests.release.xcconfig"; path = "Target Support Files/Pods-MBBase_CTMediator_Tests/Pods-MBBase_CTMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -51,10 +49,10 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* MBBase_CTMediator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBBase_CTMediator-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* MBBASE_CTMEDIATORAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBBASE_CTMEDIATORAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* MBBASE_CTMEDIATORAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBBASE_CTMEDIATORAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* MBBASE_CTMEDIATORViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBBASE_CTMEDIATORViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* MBBASE_CTMEDIATORViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBBASE_CTMEDIATORViewController.m; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* CPDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* CPDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* CPDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* CPDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* MBBase_CTMediator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBBase_CTMediator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,10 +60,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5C777FF2596B9121CA6543D /* Pods-MBBase_CTMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBBase_CTMediator_Example.release.xcconfig"; path = "Target Support Files/Pods-MBBase_CTMediator_Example/Pods-MBBase_CTMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D0A4B78319D3BDEE257AD92C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D0A4B78319D3BDEE257AD92C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EBF4B643DF6D062CDF1CAA4F /* Pods_MBBase_CTMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBBase_CTMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,12 +128,10 @@
 		6003F593195388D20070C39A /* Example for MBBase_CTMediator */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* MBBASE_CTMEDIATORAppDelegate.h */,
-				6003F59D195388D20070C39A /* MBBASE_CTMEDIATORAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* MBBASE_CTMEDIATORViewController.h */,
-				6003F5A6195388D20070C39A /* MBBASE_CTMEDIATORViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F59C195388D20070C39A /* CPDAppDelegate.h */,
+				6003F59D195388D20070C39A /* CPDAppDelegate.m */,
+				6003F5A5195388D20070C39A /* CPDViewController.h */,
+				6003F5A6195388D20070C39A /* CPDViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -193,7 +187,6 @@
 				521B362C32034116F62A406D /* Pods-MBBase_CTMediator_Tests.debug.xcconfig */,
 				44A9E1316379A4D1BBD4D581 /* Pods-MBBase_CTMediator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +242,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = luozhuangshen;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = RW5D4K5N7M;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +255,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -278,8 +275,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -365,10 +360,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MBBase_CTMediator_Example/Pods-MBBase_CTMediator_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/MBBase_CTMediator/MBBase_CTMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBBase_CTMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,8 +380,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* MBBASE_CTMEDIATORAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* MBBASE_CTMEDIATORViewController.m in Sources */,
+				6003F59E195388D20070C39A /* CPDAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* CPDViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,14 +419,6 @@
 				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71719F9E1E33DC2100824A3D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -513,6 +502,7 @@
 			baseConfigurationReference = 417C1D65545197B4569D368B /* Pods-MBBase_CTMediator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RW5D4K5N7M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MBBase_CTMediator/MBBase_CTMediator-Prefix.pch";
 				INFOPLIST_FILE = "MBBase_CTMediator/MBBase_CTMediator-Info.plist";
@@ -529,6 +519,7 @@
 			baseConfigurationReference = B5C777FF2596B9121CA6543D /* Pods-MBBase_CTMediator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RW5D4K5N7M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MBBase_CTMediator/MBBase_CTMediator-Prefix.pch";
 				INFOPLIST_FILE = "MBBase_CTMediator/MBBase_CTMediator-Info.plist";

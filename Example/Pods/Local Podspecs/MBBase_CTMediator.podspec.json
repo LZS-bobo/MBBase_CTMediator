@@ -1,0 +1,27 @@
+{
+  "name": "MBBase_CTMediator",
+  "version": "0.1.0",
+  "summary": "A short description of MBBase_CTMediator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luozhuangshen/MBBase_CTMediator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luozhuangshen": "1003706754@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/luozhuangshen/MBBase_CTMediator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MBBase_CTMediator/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

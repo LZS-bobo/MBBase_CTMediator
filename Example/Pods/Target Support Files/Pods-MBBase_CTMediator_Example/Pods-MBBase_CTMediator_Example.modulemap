@@ -1,0 +1,6 @@
+framework module Pods_MBBase_CTMediator_Example {
+  umbrella header "Pods-MBBase_CTMediator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
