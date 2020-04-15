@@ -93,7 +93,7 @@
 		03AC920FDB16330F173EDAD96EBDC470 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		0487C500D6C14148A1DD382906DC804D /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HandyTools.h"; path = "CTMediator/CTMediator/CTMediator+HandyTools.h"; sourceTree = "<group>"; };
 		113ADF66D99F1455800914E765A74924 /* Pods-MBBase_CTMediator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBBase_CTMediator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		133039D8C03C78066809DFE914D31FCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		133039D8C03C78066809DFE914D31FCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		15BCF464CD444E8C7ED96D1556D231D0 /* Pods-MBBase_CTMediator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBBase_CTMediator_Example-dummy.m"; sourceTree = "<group>"; };
 		184E97A898F4D994398C30DA04BC2F78 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		1DFA1FEE1B25EEAA0D2EDD114ADFE206 /* Pods-MBBase_CTMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBBase_CTMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,19 +104,19 @@
 		3542A32C7C15BA3CB311EACF41980E14 /* CTMediator+MBBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+MBBase.h"; path = "MBBase_CTMediator/Classes/CTMediator+MBBase.h"; sourceTree = "<group>"; };
 		3C5FFE0CB7B151061311C795E37705DE /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		3DF4AFA4D83EB0AB247CE164662575A8 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		3E4BF25AE84095D637F53BD485BFC4B6 /* MBBase_CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBBase_CTMediator.framework; path = MBBase_CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4BF25AE84095D637F53BD485BFC4B6 /* MBBase_CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBBase_CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BFC0F5EA72541A37590819BE439852 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		49E86F87B48D8944F30A9F0326C25A4D /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		4B16010BC3290C3A6AD44940145F8E54 /* Pods_MBBase_CTMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MBBase_CTMediator_Tests.framework; path = "Pods-MBBase_CTMediator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B16010BC3290C3A6AD44940145F8E54 /* Pods_MBBase_CTMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBBase_CTMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA9E837124C66F3CC2BDA94CA6CB96A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		56CCC0B59A5AB202FC8D6876301EC508 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		5ACF83929432425F0B83708F77C05604 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6163418AFAA0D11F6A038007C1407CA0 /* Pods-MBBase_CTMediator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBBase_CTMediator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		63318440F0AA1FF997D844455DA95002 /* MBBase_CTMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MBBase_CTMediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		63318440F0AA1FF997D844455DA95002 /* MBBase_CTMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MBBase_CTMediator.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		64BE9EBF30085B6C30E6D9E28E728E94 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		67B849DD3AE1A27569E52D368A8D8F8E /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF58B4E37B76D015E60A88BEF7D98CD /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		74674700313276DFE600746579AD11B2 /* Pods-MBBase_CTMediator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBBase_CTMediator_Example-frameworks.sh"; sourceTree = "<group>"; };
 		763661E29ACEB614F55A50851B452839 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
@@ -129,8 +129,8 @@
 		926A9198EF6DA6CD6BA02A062CDAAD40 /* Pods-MBBase_CTMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBBase_CTMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		93F653DC47F9EA82E9DC741A21A8D771 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		951D6AB293D49928AA0B0C4BC16954B8 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
-		9B0B18B0AADB7FBB89FD058B091262C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B0B18B0AADB7FBB89FD058B091262C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EF8EC6A55BDA4B28A341E15C6D400D2 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		A62703FDCACA3938E9A9537EC9948AA1 /* Pods-MBBase_CTMediator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBBase_CTMediator_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A62FBE47DAE055E8B2264A16BFE1A774 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -154,7 +154,7 @@
 		E86AD72FAD6D0E19588F07C67EECB7D2 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		E88CEFADA42E71ABBDC1B5F098B77D53 /* MBBase_CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBBase_CTMediator-umbrella.h"; sourceTree = "<group>"; };
 		E89BC4A242924B5E017198BCAE53C2A1 /* Pods-MBBase_CTMediator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBBase_CTMediator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E913F010A94DCA010E7CD4BF50FE21B5 /* Pods_MBBase_CTMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MBBase_CTMediator_Example.framework; path = "Pods-MBBase_CTMediator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E913F010A94DCA010E7CD4BF50FE21B5 /* Pods_MBBase_CTMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBBase_CTMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7ECC4543F4E1C2A1C26852F34AA4A5 /* Pods-MBBase_CTMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBBase_CTMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F830BAC51B6B80233351C054F6BD7680 /* MBBase_CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBBase_CTMediator-Info.plist"; sourceTree = "<group>"; };
 		FAECF43D2705C78EF886FC5C5346CB1D /* MBBase_CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBBase_CTMediator.modulemap; sourceTree = "<group>"; };
@@ -218,7 +218,6 @@
 				72B9A84EDBCB6CED028B6D7645399FE9 /* Support Files */,
 				F238B9722BCF28FA9C0D3DA060F70832 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -231,7 +230,6 @@
 				84788861FAB7C8AE2A671F54A0B87924 /* CTMediator+HandyTools.m */,
 				96415042E0A30ECFD36A05DD5A7DA1DC /* Support Files */,
 			);
-			name = CTMediator;
 			path = CTMediator;
 			sourceTree = "<group>";
 		};
@@ -922,8 +920,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
