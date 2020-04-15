@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/luozhuangshen/MBBase_CTMediator'
+  s.homepage         = 'https://github.com/LZS-bobo/testSpec'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'luozhuangshen' => '1003706754@qq.com' }
