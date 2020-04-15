@@ -1,0 +1,6 @@
+framework module MBBase_CTMediator {
+  umbrella header "MBBase_CTMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}
