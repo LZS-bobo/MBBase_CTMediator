@@ -5,8 +5,12 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MBBase_CTMediator (0.1.0):
+  - LCActionSheet (3.5.4):
+    - Masonry (~> 1.1.0)
+  - Masonry (1.1.0)
+  - MBBase_CTMediator (0.7):
     - CTMediator
+    - LCActionSheet
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -16,6 +20,8 @@ SPEC REPOS:
   trunk:
     - CTMediator
     - FBSnapshotTestCase
+    - LCActionSheet
+    - Masonry
 
 EXTERNAL SOURCES:
   MBBase_CTMediator:
@@ -24,7 +30,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MBBase_CTMediator: 693f65e6ffec68b81410da0514806a7dd5325809
+  LCActionSheet: a015dee43c54c8f6631e86facd9e2ad59dc1b5ab
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBBase_CTMediator: fb6ca9b161ab1d7ecb9c72dc4415dab4eed728b2
 
 PODFILE CHECKSUM: 99ac4963f623c4a1f298b0e9b9a3c868c908b19c
 

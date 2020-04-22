@@ -10,9 +10,3 @@
 #endif
 #endif
 
-#import "ActionSheet.h"
-#import "CTMediator+MBBase.h"
-
-FOUNDATION_EXPORT double MBBase_CTMediatorVersionNumber;
-FOUNDATION_EXPORT const unsigned char MBBase_CTMediatorVersionString[];
-
